@@ -1,0 +1,30 @@
+.swiper {
+  width: 600px;
+  height: 700px;
+  padding: 30px;
+}
+
+.swiper-pagination-bullet {
+  background-color: yellow;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: blue;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 10px;
+}
+
+.swiper-button-prev::after {
+  content: '←';
+  font-size: 30px;
+  color: aqua;
+}
+
+.swiper-button-next::after {
+  content: '→';
+  font-size: 30px;
+  color: deeppink;
+}
